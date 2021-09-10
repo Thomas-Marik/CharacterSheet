@@ -1,0 +1,16 @@
+export default interface ICharacter{
+    name:string,
+    race:string,
+    age:number,
+    sex:string,
+    class:string,
+    level:number,
+    str:number,
+    int:number,
+    wis:number,
+    cha:number,
+    dex:number,
+    con:number,
+    bio:string,
+    image:any,
+}
