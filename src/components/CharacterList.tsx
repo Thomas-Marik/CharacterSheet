@@ -3,6 +3,12 @@ import { ListGroup, ListGroupItem } from 'reactstrap'
 import { Link } from "react-router-dom";
 import ICharacter  from '../assets/model/Character'
 import CharacterSheet from './CharacterSheet';
+import dwarf from '../assets/pics/dwarf1.png'
+import barb from '../assets/pics/barb1.jpg'
+import elf from '../assets/pics/elf1.png'
+import halfling from '../assets/pics/halfling1.png'
+import cleric from '../assets/pics/human1.jpg'
+
 
 const charData=[
     {
@@ -19,7 +25,7 @@ const charData=[
       dex:14,
       con:18,
       bio:" Kilain is a sturdy fighter.He presses on with the memory of his dead family to give him strength",
-      image: "dwarf1"  
+      image: dwarf  
 
     },
     {
@@ -36,7 +42,7 @@ const charData=[
         dex:12,
         con:18,
         bio:"Amarii is a powerful warrior and looks to destroy her enemies.",
-        image: "barb1"  
+        image: barb  
   
       },
       {
@@ -53,7 +59,7 @@ const charData=[
         dex:18,
         con:14,
         bio:"Ren grew up on the streets and had to steal to survive aan dsupport his brothers and sisters.",
-        image: "halfling1"  
+        image: halfling  
   
       },
       {
@@ -70,7 +76,7 @@ const charData=[
         dex:14,
         con:12,
         bio:"Talastar discovered his talent while hiding from goblins. He uses his powerful evocations to eleminate his enenimes.",
-        image: "elf1"  
+        image: elf 
   
       },
       {
@@ -87,7 +93,7 @@ const charData=[
         dex:12,
         con:12,
         bio:" Haelum Goode is proud cleric of Paladine.",
-        image: "human1"  
+        image: cleric 
   
       }
 ]

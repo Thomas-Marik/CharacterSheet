@@ -28,6 +28,7 @@ const CharacterSheet=(props:IProps)=> {
             <div id="myGuy">
                 <h1 id="charName">{props.item.name}</h1>
                 <h2 id="charClass">{props.item.class}</h2>
+                <img src={props.item.image} height="200" width="200" alt="dwarf"/>
                 
             </div>
             <div id="vitals">
